@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{476F3149-95CD-4161-8FEF-9C96112B04C8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>My301CR</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\LUA\include;.\IRRLICHT\include;.\LuaBridge\detail;.\SFML\include;.\Bridge;.\Bridge\LuaBridge;.\PhysX\include;.\Klang\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>.\Library\SfmlLib\sfml-audio.lib;.\Library\SfmlLib\sfml-main.lib;.\Library\SfmlLib\sfml-system.lib;.\Library\SfmlLib\sfml-window.lib;.\Library\IrrlichtLib\Irrlicht.lib;.\Library\LuaLib\lua54.lib;.\Library\gmock_maind.lib;.\Library\gmockd.lib;.\Library\gtestd.lib;.\Library\gtest_maind.lib;.\Library\JuceLibraryCode.lib;.\Library\Lua51.lib;.\Library\Lua52.lib;.\Library\PhysxLib\PhysX_64.lib;.\Library\PhysxLib\PhysXCommon_64.lib;.\Library\PhysxLib\PhysXCooking_64.lib;.\Library\PhysxLib\PhysXExtensions_static_64.lib;.\Library\PhysxLib\PhysXFoundation_64.lib;.\Library\PhysxLib\PhysXPvdSDK_static_64.lib;.\Library\KlangLib\irrKlang.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.\Library\LuaLib;.\Library\IrrlichtLib;.\Library\SfmlLib;.\Library\gmock_maind.lib;.\Library\gmockd.lib;.\Library\gtestd.lib;.\Library\gtest_maind.lib;.\Library\JuceLibraryCode.lib;.\Library\Lua51.lib;.\Library\Lua52.lib;.\Library\PhysxLib;.\Library\KlangLib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\LUA\include;.\IRRLICHT\include;.\LuaBridge\detail;.\SFML\include;.\Bridge;.\Bridge\LuaBridge;.\PhysX\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>.\Library\LuaLib;.\Library\IrrlichtLib;.\Library\SfmlLib;.\Library\gmock_maind.lib;.\Library\gmockd.lib;.\Library\gtestd.lib;.\Library\gtest_maind.lib;.\Library\JuceLibraryCode.lib;.\Library\Lua51.lib;.\Library\Lua52.lib;.\Library\PhysxLib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>.\Library\SfmlLib\sfml-audio.lib;.\Library\SfmlLib\sfml-main.lib;.\Library\SfmlLib\sfml-system.lib;.\Library\SfmlLib\sfml-window.lib;.\Library\IrrlichtLib\Irrlicht.lib;.\Library\LuaLib\lua54.lib;.\Library\gmock_maind.lib;.\Library\gmockd.lib;.\Library\gtestd.lib;.\Library\gtest_maind.lib;.\Library\JuceLibraryCode.lib;.\Library\Lua51.lib;.\Library\Lua52.lib;.\Library\PhysxLib\PhysX_64.lib;.\Library\PhysxLib\PhysXCommon_64.lib;.\Library\PhysxLib\PhysXCooking_64.lib;.\Library\PhysxLib\PhysXExtensions_static_64.lib;.\Library\PhysxLib\PhysXFoundation_64.lib;.\Library\PhysxLib\PhysXPvdSDK_static_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AiController.cpp" />
+    <ClCompile Include="AiEvent.cpp" />
+    <ClCompile Include="AssetLoader.cpp" />
+    <ClCompile Include="DataEvent.cpp" />
+    <ClCompile Include="Event.cpp" />
+    <ClCompile Include="FileInput.cpp" />
+    <ClCompile Include="GameData.cpp" />
+    <ClCompile Include="GraphicsEvent.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="Physics.cpp" />
+    <ClCompile Include="PhysicsEvent.cpp" />
+    <ClCompile Include="SoundEvent.cpp" />
+    <ClCompile Include="Sounds.cpp" />
+    <ClCompile Include="Subsystem.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="Vector3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AiController.h" />
+    <ClInclude Include="AiEvent.h" />
+    <ClInclude Include="AssetLoader.h" />
+    <ClInclude Include="DataEvent.h" />
+    <ClInclude Include="EnemyBehaviour.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="FileInput.h" />
+    <ClInclude Include="GameData.h" />
+    <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Graphics.h" />
+    <ClInclude Include="GraphicsEvent.h" />
+    <ClInclude Include="HighScore.h" />
+    <ClInclude Include="LoadableAsset.h" />
+    <ClInclude Include="meshObj.h" />
+    <ClInclude Include="Physics.h" />
+    <ClInclude Include="PhysicsEvent.h" />
+    <ClInclude Include="physObj.h" />
+    <ClInclude Include="playerData.h" />
+    <ClInclude Include="Reference.h" />
+    <ClInclude Include="SoundEvent.h" />
+    <ClInclude Include="Sounds.h" />
+    <ClInclude Include="Subsystem.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="Vector3.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

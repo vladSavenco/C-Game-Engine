@@ -1,0 +1,21 @@
+﻿<Window x:Class="DogeyEngine_Launcher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DogeyEngine_Launcher"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+	<Grid x:Name="LauncherWindow" Background="#FF0D205F">
+		<Label Content="The DogeyEngine&#xD;&#xA;" HorizontalAlignment="Left" Margin="22,33,0,0" FontWeight="Bold" FontSize="18" Foreground="#FFEE9A1C" Height="37" VerticalAlignment="Top"/>
+		<TextBlock HorizontalAlignment="Left" Margin="22,70,0,0" TextWrapping="Wrap" TextDecorations="{x:Null}" FontStyle="Italic" Foreground="#FFEE9A1C" Height="32" VerticalAlignment="Top"><Run Text="DogeyEngine is powered by questionable technologies."/><LineBreak/><Run/></TextBlock>
+
+        <Button x:Name="Play" Content="Play" Margin="40,107,0,0" Click="Play_Click" Background="#FF0D205F" BorderBrush="#FFDC7E0D" Foreground="#FFFFAB18" Height="40" VerticalAlignment="Top" HorizontalAlignment="Left" Width="140"/>
+		<Button x:Name="Level_Edit" Content="Level Editor" Margin="40,164,0,0" Click="Level_Edit_Click" Background="#FF0D205F" BorderBrush="#FFDC7E0D" Foreground="#FFFFAB18" HorizontalAlignment="Left" Width="140" Height="40" VerticalAlignment="Top"/>
+		<Button x:Name="Mesh" Content="Mesh Folder" HorizontalAlignment="Left" Margin="58,226,0,0" VerticalAlignment="Top" Height="28" Width="104" Click="Mesh_Click" Background="#FF0D205F" BorderBrush="#FFDC7E0D" Foreground="#FFFFAB18"/>
+		<Button x:Name="Texture" Content="Texture Folder" HorizontalAlignment="Left" Margin="58,267,0,0" VerticalAlignment="Top" Height="28" Width="104" Click="Texture_Click" Background="#FF0D205F" BorderBrush="#FFDC7E0D" Foreground="#FFFFAB18"/>
+		<Button x:Name="Music" Content="Music Folder" HorizontalAlignment="Left" Margin="58,308,0,0" VerticalAlignment="Top" Height="28" Width="104" Click="Music_Click" Background="#FF0D205F" BorderBrush="#FFDC7E0D" Foreground="#FFFFAB18"/>
+		<Button x:Name="Sound" Content="Sound Folder" HorizontalAlignment="Left" Margin="58,350,0,0" VerticalAlignment="Top" Height="28" Width="106" Click="Sound_Click" Background="#FF0D205F" BorderBrush="#FFDC7E0D" Foreground="#FFFFAB18"/>
+
+	</Grid>
+</Window>

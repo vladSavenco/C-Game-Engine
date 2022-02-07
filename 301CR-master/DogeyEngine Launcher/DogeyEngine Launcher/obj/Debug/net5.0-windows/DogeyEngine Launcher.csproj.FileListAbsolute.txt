@@ -1,0 +1,22 @@
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\bin\Debug\net5.0-windows\DogeyEngine Launcher.exe
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\bin\Debug\net5.0-windows\DogeyEngine Launcher.deps.json
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\bin\Debug\net5.0-windows\DogeyEngine Launcher.runtimeconfig.json
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\bin\Debug\net5.0-windows\DogeyEngine Launcher.runtimeconfig.dev.json
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\bin\Debug\net5.0-windows\DogeyEngine Launcher.dll
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\bin\Debug\net5.0-windows\ref\DogeyEngine Launcher.dll
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\bin\Debug\net5.0-windows\DogeyEngine Launcher.pdb
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\obj\Debug\net5.0-windows\App.g.cs
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\obj\Debug\net5.0-windows\DogeyEngine Launcher_MarkupCompile.cache
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\obj\Debug\net5.0-windows\DogeyEngine Launcher_MarkupCompile.lref
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\obj\Debug\net5.0-windows\MainWindow.baml
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\obj\Debug\net5.0-windows\DogeyEngine Launcher.g.resources
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\obj\Debug\net5.0-windows\DogeyEngine Launcher.GeneratedMSBuildEditorConfig.editorconfig
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\obj\Debug\net5.0-windows\DogeyEngine Launcher.AssemblyInfoInputs.cache
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\obj\Debug\net5.0-windows\DogeyEngine Launcher.AssemblyInfo.cs
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\obj\Debug\net5.0-windows\DogeyEngine Launcher.csproj.CoreCompileInputs.cache
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\obj\Debug\net5.0-windows\DogeyEngine Launcher.dll
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\obj\Debug\net5.0-windows\ref\DogeyEngine Launcher.dll
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\obj\Debug\net5.0-windows\DogeyEngine Launcher.pdb
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\obj\Debug\net5.0-windows\DogeyEngine Launcher.genruntimeconfig.cache
+C:\GameDevelopement\Github\301CR\301CR\301CR\301CR\DogeyEngine Launcher\DogeyEngine Launcher\obj\Debug\net5.0-windows\DogeyEngine Launcher.csproj.AssemblyReference.cache

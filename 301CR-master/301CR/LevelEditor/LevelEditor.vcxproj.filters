@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Subsystems">
+      <UniqueIdentifier>{1c5687c9-e47c-49e5-ae77-69c6c90bf22e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Subsystems">
+      <UniqueIdentifier>{e476369f-a4ab-4ae9-91e7-9c6671e5bf09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structs">
+      <UniqueIdentifier>{23f54690-5428-4079-a4f5-826813d9e98b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{270a071c-8ea7-478a-8da9-5a5b1b33bf5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{7e895a8c-1791-4b8e-8ec2-aae9dfd3b489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IrrIMGUI">
+      <UniqueIdentifier>{c593161f-e705-4957-a60b-0acd72981d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IrrIMGUI">
+      <UniqueIdentifier>{5bf25e83-e568-44cb-94f7-ae3ed1975379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IMGUI">
+      <UniqueIdentifier>{84eba717-76a2-42fb-af98-61e9661aec74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IMGUI">
+      <UniqueIdentifier>{d8efc8d6-1fd1-4f7b-a561-23a229f3a35c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Subsystem.cpp">
+      <Filter>Source Files\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetLoader.cpp">
+      <Filter>Source Files\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_source\IrrIMGUI\CBasicMemoryLeakDetection.cpp">
+      <Filter>Source Files\IrrIMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_source\IrrIMGUI\CChannelBuffer.cpp">
+      <Filter>Source Files\IrrIMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_source\IrrIMGUI\CCharFifo.cpp">
+      <Filter>Source Files\IrrIMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_source\IrrIMGUI\CGUITexture.cpp">
+      <Filter>Source Files\IrrIMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_source\IrrIMGUI\CIMGUIEventReceiver.cpp">
+      <Filter>Source Files\IrrIMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_source\IrrIMGUI\CIMGUIHandle.cpp">
+      <Filter>Source Files\IrrIMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_source\IrrIMGUI\CIrrlichtIMGUIDriver.cpp">
+      <Filter>Source Files\IrrIMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_source\IrrIMGUI\COpenGLIMGUIDriver.cpp">
+      <Filter>Source Files\IrrIMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_source\IrrIMGUI\IIMGUIDriver.cpp">
+      <Filter>Source Files\IrrIMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_source\IrrIMGUI\IMGUIHelper.cpp">
+      <Filter>Source Files\IrrIMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_source\IrrIMGUI\IReferenceCounter.cpp">
+      <Filter>Source Files\IrrIMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_source\IrrIMGUI\IrrIMGUIInject.cpp">
+      <Filter>Source Files\IrrIMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_source\IrrIMGUI\UnitTest.cpp">
+      <Filter>Source Files\IrrIMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_includes\IMGUI\imgui.cpp">
+      <Filter>Source Files\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_includes\IMGUI\imgui_demo.cpp">
+      <Filter>Source Files\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_includes\IMGUI\imgui_draw.cpp">
+      <Filter>Source Files\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LevelEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetLoader.h">
+      <Filter>Header Files\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Subsystem.h">
+      <Filter>Header Files\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="meshObj.h">
+      <Filter>Header Files\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_source\IrrIMGUI\CIMGUIHandle.h">
+      <Filter>Header Files\IrrIMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_source\IrrIMGUI\CIrrlichtIMGUIDriver.h">
+      <Filter>Header Files\IrrIMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_source\IrrIMGUI\COpenGLIMGUIDriver.h">
+      <Filter>Header Files\IrrIMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_source\IrrIMGUI\IIMGUIDriver.h">
+      <Filter>Header Files\IrrIMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_source\IrrIMGUI\private\CGUITexture.h">
+      <Filter>Header Files\IrrIMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_source\IrrIMGUI\private\IrrIMGUIDebug_priv.h">
+      <Filter>Header Files\IrrIMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_source\IrrIMGUI\private\IrrIMGUIInject_priv.h">
+      <Filter>Header Files\IrrIMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_includes\IMGUI\imconfig.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_includes\IMGUI\imgui.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_includes\IMGUI\imgui_internal.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_includes\IMGUI\stb_rect_pack.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_includes\IMGUI\stb_textedit.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_includes\IMGUI\stb_truetype.h">
+      <Filter>Header Files\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

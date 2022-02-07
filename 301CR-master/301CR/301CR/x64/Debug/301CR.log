@@ -1,0 +1,67 @@
+﻿  AiController.cpp
+  AiEvent.cpp
+  AssetLoader.cpp
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(145,111): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(145,104): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(145,96): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(145,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(150,120): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(150,113): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(150,105): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(150,97): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(155,131): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(155,124): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(155,116): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(155,108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(48,5): warning C4102: 'std': unreferenced label
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(305,182): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(305,163): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(305,143): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(313,136): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(313,122): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(313,107): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(326,175): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(326,157): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\AssetLoader.cpp(326,138): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  DataEvent.cpp
+  Event.cpp
+  FileInput.cpp
+  GameData.cpp
+  GraphicsEvent.cpp
+  Main.cpp
+  GameEngine.cpp
+  Graphics.cpp
+  Physics.cpp
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\Physics.cpp(196,77): warning C4244: 'argument': conversion from 'int' to 'physx::PxReal', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\Physics.cpp(196,72): warning C4244: 'argument': conversion from 'int' to 'physx::PxReal', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\Physics.cpp(196,67): warning C4244: 'argument': conversion from 'int' to 'physx::PxReal', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\Physics.cpp(216,77): warning C4244: 'argument': conversion from 'int' to 'physx::PxReal', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\Physics.cpp(216,72): warning C4244: 'argument': conversion from 'int' to 'physx::PxReal', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\Physics.cpp(216,67): warning C4244: 'argument': conversion from 'int' to 'physx::PxReal', possible loss of data
+  PhysicsEvent.cpp
+  SoundEvent.cpp
+  Sounds.cpp
+  Subsystem.cpp
+  UI.cpp
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\UI.cpp(11,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\UI.cpp(16,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Vector3.cpp
+C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\301CR\Vector3.cpp(28,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  LINK : C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\x64\Debug\301CR.exe not found or not built by the last incremental link; performing full link
+PhysXExtensions_static_64.lib(ExtCpuWorkerThread.obj) : warning LNK4099: PDB '' was not found with 'PhysXExtensions_static_64.lib(ExtCpuWorkerThread.obj)' or at ''; linking object as if no debug info
+PhysXExtensions_static_64.lib(ExtDefaultCpuDispatcher.obj) : warning LNK4099: PDB 'PhysXExtensions_static_64.pdb' was not found with 'PhysXExtensions_static_64.lib(ExtDefaultCpuDispatcher.obj)' or at 'C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\x64\Debug\PhysXExtensions_static_64.pdb'; linking object as if no debug info
+PhysXExtensions_static_64.lib(ExtDefaultErrorCallback.obj) : warning LNK4099: PDB 'PhysXExtensions_static_64.pdb' was not found with 'PhysXExtensions_static_64.lib(ExtDefaultErrorCallback.obj)' or at 'C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\x64\Debug\PhysXExtensions_static_64.pdb'; linking object as if no debug info
+PhysXExtensions_static_64.lib(ExtDefaultSimulationFilterShader.obj) : warning LNK4099: PDB 'PhysXExtensions_static_64.pdb' was not found with 'PhysXExtensions_static_64.lib(ExtDefaultSimulationFilterShader.obj)' or at 'C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\x64\Debug\PhysXExtensions_static_64.pdb'; linking object as if no debug info
+PhysXExtensions_static_64.lib(ExtRigidBodyExt.obj) : warning LNK4099: PDB 'PhysXExtensions_static_64.pdb' was not found with 'PhysXExtensions_static_64.lib(ExtRigidBodyExt.obj)' or at 'C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\x64\Debug\PhysXExtensions_static_64.pdb'; linking object as if no debug info
+PhysXExtensions_static_64.lib(ExtSimpleFactory.obj) : warning LNK4099: PDB 'PhysXExtensions_static_64.pdb' was not found with 'PhysXExtensions_static_64.lib(ExtSimpleFactory.obj)' or at 'C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\x64\Debug\PhysXExtensions_static_64.pdb'; linking object as if no debug info
+PhysXPvdSDK_static_64.lib(PxProfileEventImpl.obj) : warning LNK4099: PDB 'PhysXPvdSDK_static_64.pdb' was not found with 'PhysXPvdSDK_static_64.lib(PxProfileEventImpl.obj)' or at 'C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\x64\Debug\PhysXPvdSDK_static_64.pdb'; linking object as if no debug info
+PhysXPvdSDK_static_64.lib(PxPvd.obj) : warning LNK4099: PDB 'PhysXPvdSDK_static_64.pdb' was not found with 'PhysXPvdSDK_static_64.lib(PxPvd.obj)' or at 'C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\x64\Debug\PhysXPvdSDK_static_64.pdb'; linking object as if no debug info
+PhysXPvdSDK_static_64.lib(PxPvdDataStream.obj) : warning LNK4099: PDB 'PhysXPvdSDK_static_64.pdb' was not found with 'PhysXPvdSDK_static_64.lib(PxPvdDataStream.obj)' or at 'C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\x64\Debug\PhysXPvdSDK_static_64.pdb'; linking object as if no debug info
+PhysXPvdSDK_static_64.lib(PxPvdDefaultSocketTransport.obj) : warning LNK4099: PDB 'PhysXPvdSDK_static_64.pdb' was not found with 'PhysXPvdSDK_static_64.lib(PxPvdDefaultSocketTransport.obj)' or at 'C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\x64\Debug\PhysXPvdSDK_static_64.pdb'; linking object as if no debug info
+PhysXPvdSDK_static_64.lib(PxPvdImpl.obj) : warning LNK4099: PDB 'PhysXPvdSDK_static_64.pdb' was not found with 'PhysXPvdSDK_static_64.lib(PxPvdImpl.obj)' or at 'C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\x64\Debug\PhysXPvdSDK_static_64.pdb'; linking object as if no debug info
+PhysXPvdSDK_static_64.lib(PxPvdMemClient.obj) : warning LNK4099: PDB 'PhysXPvdSDK_static_64.pdb' was not found with 'PhysXPvdSDK_static_64.lib(PxPvdMemClient.obj)' or at 'C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\x64\Debug\PhysXPvdSDK_static_64.pdb'; linking object as if no debug info
+PhysXPvdSDK_static_64.lib(PxPvdObjectModelMetaData.obj) : warning LNK4099: PDB 'PhysXPvdSDK_static_64.pdb' was not found with 'PhysXPvdSDK_static_64.lib(PxPvdObjectModelMetaData.obj)' or at 'C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\x64\Debug\PhysXPvdSDK_static_64.pdb'; linking object as if no debug info
+PhysXPvdSDK_static_64.lib(PxPvdObjectRegistrar.obj) : warning LNK4099: PDB 'PhysXPvdSDK_static_64.pdb' was not found with 'PhysXPvdSDK_static_64.lib(PxPvdObjectRegistrar.obj)' or at 'C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\x64\Debug\PhysXPvdSDK_static_64.pdb'; linking object as if no debug info
+PhysXPvdSDK_static_64.lib(PxPvdProfileZoneClient.obj) : warning LNK4099: PDB 'PhysXPvdSDK_static_64.pdb' was not found with 'PhysXPvdSDK_static_64.lib(PxPvdProfileZoneClient.obj)' or at 'C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\x64\Debug\PhysXPvdSDK_static_64.pdb'; linking object as if no debug info
+  301CR.vcxproj -> C:\GameDevelopement\Github\C-Game-Engine\301CR-master\301CR\x64\Debug\301CR.exe

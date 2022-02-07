@@ -1,0 +1,11 @@
+gameObj1 = {
+objId =1, 
+isPlayer=1,
+isEnemy=0,
+enemyTyp=0,
+ojMesh="doge.obj",
+ojTex="doge.jpg",
+objPos={
+X=0,
+Y=0,
+Z=50,
